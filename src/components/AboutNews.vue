@@ -12,8 +12,8 @@
       <!-- Notícias -->
       <aside id="aside-noticias" class="col-12 col-md-4">
         <h1>ÚLTIMAS NOTÍCIAS</h1>
-        <a v-for="noticia in noticias"  href="#">
-          <p :key="noticia.id" class="links-marrom">{{ noticia.date }}</p>
+        <a :key="noticia.id" v-for="noticia in noticias"  href="#">
+          <p class="links-marrom">{{ noticia.date }}</p>
           <p class="p-noticia">{{ noticia.texto }}</p>
           <hr>
         </a>

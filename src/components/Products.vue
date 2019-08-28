@@ -1,7 +1,7 @@
 <template>
   <section id="section-produtos" class="container d-flex flex-wrap flex-lg-nowrap justify-content-center">
-    <figure v-for="produto in produtos" >
-      <div :key="produto.id" class="div-img-produtos">
+    <figure :key="produto.id" v-for="produto in produtos" >
+      <div class="div-img-produtos">
         <img class="img-fluid" :src="produto.url">
       </div>
       <figcaption>{{ produto.nome.toUpperCase() }}</figcaption>

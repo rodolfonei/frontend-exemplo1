@@ -1,4 +1,4 @@
-# frontend-exemplo1
+# frontend-exemplo1 - Homepage Padaria
 
 ## Projeto de modelo para soluções web Front-end.
 
